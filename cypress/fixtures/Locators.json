@@ -1,0 +1,32 @@
+{
+    "Header" : {
+        "Login" : "a[href='/login']",
+        "Register" : "a[href='/register']",
+        "Logout" : "a[role='button ']"
+    },
+    "Login" : {
+        "Email" : "#email",
+        "Password" : "#password",
+        "Submit" : "button[type='submit']"
+    },
+    "Register" : {
+        "FirstName" : "#first-name",
+        "LastName" : "#last-name",
+        "Email1" : "#email",
+        "Password" : "#password",
+        "ConfirmedPassword" : "#password-confirmation",
+        "Checkbox" : "input[type='checkbox']",
+        "Submit" : "button[type='submit']"  
+    },
+    "Create" : {
+        "CreateGallery" : "a[href='/create']",
+        "Title" : "#title",
+        "Descriptions" : "#description",
+        "Images" : "input[type='url']",
+        "Submit1" : "form > :nth-child(4)" 
+    },
+    "HomePage" : {
+        "MyGalleries" : "a[href='/my-galleries']",
+        "AllGalleries" : ":nth-child(1) > .nav-link" 
+    }
+}
